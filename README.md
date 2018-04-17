@@ -8,7 +8,7 @@ These instructions will give you everything you need to start making calls to th
 
 ### Prerequisites
 
-You need to download the omdb.js file, which is available for download on www.omdbjs.com. Then set up a script tag for it in your html file above your other JavaScript files like so:
+You need to download the omdb.js file, which is available for download on http://www.omdbjs.com. Then set up a script tag for it in your html file above your other JavaScript files like so:
 
 ```html
 <script type="text/javascript" src="omdb.js"></script>
@@ -25,7 +25,7 @@ Omdb.setApiKey("<API KEY>");
 
 ## Options Object
 
-Down below is a table that helps clarify which parameters you can pass into the different functions. The functions getPages and searchByPageCount take the same parameters as findBySearch.
+Down below is a table that helps clarify which parameters you can pass into the different functions. The functions getPages and searchByPageCount take the same parameters as findBySearch. You may also want to check out the OMDb [website](http://www.omdbapi.com) to know the different values.
 
 |     Key    | getByTitle           | getByImdbId            | findBySearch        |
 | :---:      | :---:                | :---:                  | :---:               |
@@ -45,7 +45,7 @@ Down below is a table that helps clarify which parameters you can pass into the 
 
 There are 3 main functions that you can use to query the API and they are described below:
 
-### getByTitle
+### getByTitle and getByImdbId
 
 The getByTitle and getByImdbId functions are pretty self explanatory based off of the names, but they are probably one of the more useful functions in the library. Use these functions to find a specific movie/show/episode like so:
 
