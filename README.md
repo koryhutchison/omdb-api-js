@@ -25,7 +25,7 @@ Omdb.setApiKey("<API KEY>");
 
 ## Options Object
 
-Down below is a table that helps clarify which parameters you can pass into the different functions. The functions getPages and searchByPageCount take the same parameters as findBySearch. You may also want to check out the OMDb [website](http://www.omdbapi.com) to know the different values.
+Down below is a table that helps clarify which parameters you can pass into the different functions. The functions getPages and searchByPageCount take the same parameters as findBySearch. You may also want to check out the OMDb [website](http://www.omdbapi.com) to know the different values for each parameter.
 
 |     Key    | getByTitle           | getByImdbId            | findBySearch        |
 | :---:      | :---:                | :---:                  | :---:               |
