@@ -47,12 +47,12 @@ There are 3 main functions that you can use to query the API and they are descri
 
 ### getByTitle and getByImdbId
 
-The getByTitle and getByImdbId functions are pretty self explanatory based off of the names, but they are probably one of the more useful functions in the library. Use these functions to find a specific movie/show/episode like so:
+The getByTitle and getByImdbId functions are pretty self explanatory based off of the names, but they are probably some of the more useful functions in the library. Use these functions to find a specific movie/show/episode like so:
 
 ```javascript
 Omdb.getByTitle(options).then(function (response) {
     console.log(response);
-}).catch(function(error) {
+}).catch(function (error) {
     console.log("Failed!", error);
 });
 ```
@@ -66,7 +66,7 @@ Once again, this function is very similar to the getByTitle and getByImdbId func
 ```javascript
 Omdb.findBySearch(options).then(function (response) {
     console.log(response);
-}).catch(function(error) {
+}).catch(function (error) {
     console.log("Failed!", error);
 });
 ```
